@@ -1,0 +1,7 @@
+127.0.0.1 - - [31/Aug/2014:23:44:58 +0300] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [31/Aug/2014:23:44:59 +0300] "GET /coupons_site/WEB-INF/classes/coupons_site/HibernateDemo.java HTTP/1.1" 404 992
+127.0.0.1 - - [31/Aug/2014:23:45:27 +0300] "GET /coupons_site/WEB-INF/classes/coupons_site/HibernateDemo.java HTTP/1.1" 404 992
+127.0.0.1 - - [31/Aug/2014:23:45:28 +0300] "GET /coupons_site/WEB-INF/classes/coupons_site/HibernateDemo.java HTTP/1.1" 404 992
+127.0.0.1 - - [31/Aug/2014:23:45:28 +0300] "GET /coupons_site/WEB-INF/classes/coupons_site/HibernateDemo.java HTTP/1.1" 404 992
+127.0.0.1 - - [31/Aug/2014:23:45:28 +0300] "GET /coupons_site/WEB-INF/classes/coupons_site/HibernateDemo.java HTTP/1.1" 404 992
+127.0.0.1 - - [31/Aug/2014:23:45:29 +0300] "GET /coupons_site/WEB-INF/classes/coupons_site/HibernateDemo.java HTTP/1.1" 404 992

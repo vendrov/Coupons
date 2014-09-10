@@ -1,0 +1,5 @@
+package coupons.hibernate;
+
+public class Coupon {
+	
+}

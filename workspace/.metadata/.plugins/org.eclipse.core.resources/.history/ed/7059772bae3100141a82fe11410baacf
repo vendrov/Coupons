@@ -1,0 +1,42 @@
+package coupons_site;
+
+import java.util.List;
+import java.util.Iterator;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+import coupons.hibernate.Coupon;
+
+public class HibernateDemo
+{
+	public static void main(String[] args) 
+	{
+		//creating factory for getting sessions
+		SessionFactory factory = new AnnotationConfiguration().configure().buildSessionFactory();
+		//creating a new session for adding products
+		Session session = factory.openSession();
+		ICouponsDAO newCoupon = new Coupon();
+		//newCoupon.addCoupon(new Coupon(), session);
+		newCoupon.deleteCoupon(0, session);
+	/*	session.beginTransaction();
+		Coupon coupon = new Coupon();
+		session.save(coupon);
+		session.getTransaction().commit();
+		session.close();
+
+		//creating a new session for getting all products
+		Session anotherSession = factory.openSession();
+		anotherSession.beginTransaction();
+		List products = anotherSession.createQuery("from Coupon").list();
+		System.out.println("There are " + products.size() + " product(s)");
+		Iterator i = products.iterator();
+		while(i.hasNext()) 
+		{
+			System.out.println(i.next());
+		}
+		anotherSession.close(); 
+		*/
+	}
+}

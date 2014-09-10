@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package coupons_site;
+
+import java.util.Iterator;
+
+/**
+ * @author admin
+ *
+ */
+public interface ICouponsDAO {
+	public abstract Coupon getCoupon(int id);
+	public abstract boolean updateCoupon(Coupon ob);
+	public abstract Iterator<Coupon> getCoupons(int from, int numberOfCoupons);
+	public abstract boolean deleteCoupon(int id);
+	public abstract boolean addCoupon(Coupon ob);
+}

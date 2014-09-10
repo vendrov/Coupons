@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package coupons_site;
+
+/**
+ * @author admin
+ *
+ */
+public interface ICouponsDAO {
+
+}

@@ -1,0 +1,57 @@
+package coupons.hibernate;
+
+import java.awt.image.BufferedImage;
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Coupon implements ICouponsDAO {
+	
+	@Id
+	private int id;
+	private String name;
+	private Date uploadTime;
+	private Date expiredTime;
+	private int businessId;
+	private String image;
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Date getUploadTime() {
+		return uploadTime;
+	}
+	public void setUploadTime(Date uploadTime) {
+		this.uploadTime = uploadTime;
+	}
+	public Date getExpiredTime() {
+		return expiredTime;
+	}
+	public void setExpiredTime(Date expiredTime) {
+		this.expiredTime = expiredTime;
+	}
+	public int getBusinessId() {
+		return businessId;
+	}
+	public void setBusinessId(int businessId) {
+		this.businessId = businessId;
+	}
+	public String getImage() {
+		return image;
+	}
+	public void setImage(String image) {
+		this.image = image;
+	}
+	
+}

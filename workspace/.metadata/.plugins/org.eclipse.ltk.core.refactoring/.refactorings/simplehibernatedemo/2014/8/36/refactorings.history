@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HibernateDemo.java&apos; to &apos;coupons_site/src/coupons_site&apos;&#x0D;&#x0A;- Original project: &apos;simplehibernatedemo&apos;&#x0D;&#x0A;- Destination element: &apos;coupons_site/src/coupons_site&apos;&#x0D;&#x0A;- Original element: &apos;il.ac.hit.samples.HibernateDemo.java&apos;" description="Copy compilation unit" destination="=coupons_site/src&lt;coupons_site" element1="/src&lt;il.ac.hit.samples{HibernateDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1409517577215" units="1" version="1.0"/>
+</session>
